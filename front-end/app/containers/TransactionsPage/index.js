@@ -185,7 +185,7 @@ export default class TransactionsPage extends React.Component {
                       {Constants.functions.shortenAddress(transaction.to, 5, 3)}
                     </span>
                     <span className="Transactions__amount">{transaction.amount} ETH</span>
-                    <a className="Transactions__hash" href={`https://etherscan.io/tx/${transaction.transactionHash}`}>View on Ethscan</a>
+                    <a className="Transactions__hash" href={`https://${this.props.network === "ropsten" ? "ropsten." : ""}etherscan.io/tx/${transaction.transactionHash}`}>View on Ethscan</a>
                   </div>
                 })}
               </Panel>
