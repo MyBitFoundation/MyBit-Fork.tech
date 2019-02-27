@@ -9,6 +9,7 @@ import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { FormattedMessage } from 'react-intl';
 import styled from 'styled-components';
+import HomePageDisclaimer from '@bit/mybit.ui.home-page-disclaimer';
 
 import H1 from 'components/H1';
 import P from 'components/P';
@@ -134,6 +135,7 @@ export class HomePage extends React.PureComponent {
               Contribute
              </Button>
           </StyledCenterButton>
+          <HomePageDisclaimer />
       </StyledPage>
     );
   }

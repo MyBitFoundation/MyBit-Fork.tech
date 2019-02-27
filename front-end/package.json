@@ -144,6 +144,7 @@
     ]
   },
   "dependencies": {
+    "@bit/mybit.ui.home-page-disclaimer": "^0.0.1",
     "antd": "^3.8.0",
     "axios": "^0.18.0",
     "babel-polyfill": "6.26.0",
